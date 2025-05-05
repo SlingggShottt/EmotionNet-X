@@ -2,7 +2,8 @@
 streamlit==1.35.0            # relies on numpy<2, pillow<11, pandas<3
 
 # ─── Deep‑learning / CV stack ───────────────────────────────────
-cmake>=3.22              #  ←  add this
+cmake>=3.25        # provides the “cmake” command the log complains about
+scikit-build-core  # helps pip find CMake & compile correctly
 tensorflow==2.19.0           # wheel for Python 3.11 / 3.12
 opencv-python-headless==4.11.0.86
 dlib-binary==19.21.99
