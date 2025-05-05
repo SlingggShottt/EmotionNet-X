@@ -1,17 +1,9 @@
-flask
-streamlit
-opencv-python
-tensorflow
+streamlit==1.35.0          # or the latest stable
+tensorflow-cpu==2.15.0
+opencv-python-headless==4.10.0.82
+dlib-binary==19.24.2
 numpy
-pillow
-gunicorn
-dlib
-scikit-learn
-cv2
+pandas
 matplotlib
-seaborn
-torch
-torchvision
-opencv-python
-numpy
 scikit-learn
+Pillow
