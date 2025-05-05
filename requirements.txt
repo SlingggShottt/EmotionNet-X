@@ -1,0 +1,17 @@
+flask
+streamlit
+opencv-python
+tensorflow
+numpy
+pillow
+gunicorn
+dlib
+scikit-learn
+cv2
+matplotlib
+seaborn
+torch
+torchvision
+opencv-python
+numpy
+scikit-learn
