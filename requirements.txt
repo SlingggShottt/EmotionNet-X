@@ -4,7 +4,8 @@ streamlit==1.35.0            # relies on numpy<2, pillow<11, pandas<3
 # ─── Deep‑learning / CV stack ───────────────────────────────────
 tensorflow==2.19.0           # wheel for Python 3.11 / 3.12
 opencv-python-headless==4.11.0.86
-dlib==19.24.4                # will compile (cp311 wheel not yet released)
+dlib-binary==19.21.99
+
 
 # ─── Scientific / plotting ──────────────────────────────────────
 numpy==1.26.4
