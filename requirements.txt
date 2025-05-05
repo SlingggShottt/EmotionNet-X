@@ -1,13 +1,15 @@
-streamlit==1.35.0
+# ─── Streamlit core ─────────────────────────────────────────────
+streamlit==1.35.0            # relies on numpy<2, pillow<11, pandas<3
 
-# Deep‑learning / CV
-tensorflow==2.19.0                  # first TF wheel for CPython‑3.12
+# ─── Deep‑learning / CV stack ───────────────────────────────────
+tensorflow==2.19.0           # wheel for Python 3.11 / 3.12
 opencv-python-headless==4.11.0.86
-dlib==19.24.4                        # will build from source on cp312*
+dlib==19.24.4                # will compile (cp311 wheel not yet released)
 
-# Numeric / plotting
-numpy==1.26.4                       # ⬅ compatible with Streamlit 1.35
-pillow==11.2.1
+# ─── Scientific / plotting ──────────────────────────────────────
+numpy==1.26.4
+pillow==10.3.0               # ⬅ LAST 10‑series < 11 → satisfies Streamlit
+pandas==2.2.3
 matplotlib==3.8.4
 scikit-learn==1.6.1
 seaborn==0.13.2
