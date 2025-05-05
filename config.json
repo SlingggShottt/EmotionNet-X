@@ -1,0 +1,6 @@
+{
+    "epochs": 50,
+    "batch_size": 64,
+    "data_path": "datasets/FER-2013/train"
+}
+  

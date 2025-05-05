@@ -1,0 +1,6 @@
+{
+    "models": ["emotion_on_grayscale.h5"],
+    "test_data": "datasets/FER-2013/test",
+    "output_csv": "testing_reports.csv"
+  }
+  
