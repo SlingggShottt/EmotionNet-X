@@ -2,6 +2,7 @@
 streamlit==1.35.0            # relies on numpy<2, pillow<11, pandas<3
 
 # ─── Deep‑learning / CV stack ───────────────────────────────────
+cmake>=3.22              #  ←  add this
 tensorflow==2.19.0           # wheel for Python 3.11 / 3.12
 opencv-python-headless==4.11.0.86
 dlib-binary==19.21.99
@@ -14,3 +15,4 @@ pandas==2.2.3
 matplotlib==3.8.4
 scikit-learn==1.6.1
 seaborn==0.13.2
+
