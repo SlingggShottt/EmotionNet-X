@@ -1,9 +1,14 @@
+# ─── Core app ───────────────────────────────────────────────────────────
 streamlit==1.35.0
-opencv-python-headless==4.11.0.86     # << headless build, no GUI deps
-dlib-binary==19.24.2                  # << pre‑compiled wheel
-tensorflow==2.19.0                    # first TF that supports Python 3.12
-numpy
-pandas
-matplotlib
-scikit-learn
-Pillow
+
+# ─── DL / CV stack ──────────────────────────────────────────────────────
+tensorflow==2.19.0                 # first TF wheel with Python 3.12 support
+opencv-python-headless==4.11.0.86  # no GUI deps, smaller wheel
+dlib==19.24.4                      # pre‑built manylinux wheel for cp312
+
+# ─── Utilities ──────────────────────────────────────────────────────────
+numpy==2.2.5
+pillow==11.2.1
+matplotlib==3.8.4
+scikit-learn==1.6.1
+seaborn==0.13.2                    # optional; remove if unused
